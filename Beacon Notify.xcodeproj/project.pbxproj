@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EC5324FC243A4B1B00A5B65E /* bo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5324FB243A4B1B00A5B65E /* bo.png */; };
+		EC5324FE243A6F5600A5B65E /* BeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5324FD243A6F5600A5B65E /* BeaconManager.swift */; };
 		EC6A99CF243911F30090BB90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A99CE243911F30090BB90 /* AppDelegate.swift */; };
 		EC6A99D1243911F30090BB90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A99D0243911F30090BB90 /* SceneDelegate.swift */; };
 		EC6A99D3243911F30090BB90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A99D2243911F30090BB90 /* ViewController.swift */; };
@@ -53,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		EC5324FB243A4B1B00A5B65E /* bo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bo.png; sourceTree = "<group>"; };
+		EC5324FD243A6F5600A5B65E /* BeaconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconManager.swift; sourceTree = "<group>"; };
 		EC6A99CB243911F30090BB90 /* Beacon Notify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beacon Notify.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6A99CE243911F30090BB90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC6A99D0243911F30090BB90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				EC6A99D0243911F30090BB90 /* SceneDelegate.swift */,
 				EC6A99D2243911F30090BB90 /* ViewController.swift */,
 				EC6A99E42439181E0090BB90 /* NotificationBase.swift */,
+				EC5324FD243A6F5600A5B65E /* BeaconManager.swift */,
 				EC6A99D4243911F30090BB90 /* Main.storyboard */,
 				EC6A99D7243911F50090BB90 /* Assets.xcassets */,
 				EC6A99D9243911F50090BB90 /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 				EC6A99D3243911F30090BB90 /* ViewController.swift in Sources */,
 				EC6A99E7243919520090BB90 /* Scratchpad.swift in Sources */,
 				EC6A99CF243911F30090BB90 /* AppDelegate.swift in Sources */,
+				EC5324FE243A6F5600A5B65E /* BeaconManager.swift in Sources */,
 				EC6A99D1243911F30090BB90 /* SceneDelegate.swift in Sources */,
 				EC6A99E52439181E0090BB90 /* NotificationBase.swift in Sources */,
 			);
