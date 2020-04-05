@@ -13,7 +13,6 @@ import SwiftyGif
 
 class NotificationViewController: UIViewController, UNNotificationContentExtension {
 
-    @IBOutlet var label: UILabel?
     @IBOutlet weak var imageView: UIImageView!
     
     override func viewDidLoad() {
@@ -22,18 +21,14 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
     }
     
     func didReceive(_ notification: UNNotification) {
-        guard let imageURL = notification.request.content.attachments.first?.url else { return }
-        imageURL.startAccessingSecurityScopedResource()
-//        imageView.image = try! UIImage(data: Data(contentsOf: imageURL))
-//        imageView.setGifFromURL(imageURL)
         do {
             let gif = try UIImage(gifName: "Airpods.gif")
-           imageView.setGifImage(gif)
+            imageView.setGifImage(gif)
         } catch {
             print(error)
         }
         
-        imageURL.stopAccessingSecurityScopedResource()
+        UNUserNotificationCenter.current().removeDeliveredNotifications(withIdentifiers: ["headphoneNotification"])
     }
-
+    
 }

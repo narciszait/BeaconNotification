@@ -20,8 +20,8 @@ extension ViewController {
             content.subtitle = "Battery level %"
             content.sound = UNNotificationSound.default
             
-            let imageName = "Airpods"
-            guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "gif") else { return }
+            let imageName = "bo"
+            guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "png") else { return }
             
             let attachment = try! UNNotificationAttachment(identifier: imageName, url: imageURL, options: .none)
             content.attachments = [attachment]

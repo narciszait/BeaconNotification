@@ -74,3 +74,11 @@ import Foundation
 //}
 
 //<UNNotificationAttachment: 0x28100d3b0; identifier: Airpods, family: Image, URL: file:///var/mobile/Library/UserNotifications/4C75C2D4-AC62-428A-A1ED-E37D70FF70CF/Attachments/d9a5e6e9ee50c12d610e0173b9c16f9c5e9dcfc8.gif, type: com.compuserve.gif, options: <UNImageNotificationAttachmentOptions: 0x280b37d80>>
+
+//-----
+//        guard let imageURL = notification.request.content.attachments.first?.url else { return }
+//        imageURL.startAccessingSecurityScopedResource()
+//        imageView.image = try! UIImage(data: Data(contentsOf: imageURL))
+//        imageView.setGifFromURL(imageURL)
+//
+//        imageURL.stopAccessingSecurityScopedResource()
