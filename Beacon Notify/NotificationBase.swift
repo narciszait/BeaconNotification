@@ -26,7 +26,7 @@ extension ViewController {
             let attachment = try! UNNotificationAttachment(identifier: imageName, url: imageURL, options: .none)
             content.attachments = [attachment]
             
-            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
+            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
             let request = UNNotificationRequest(identifier: "headphoneNotification", content: content, trigger: trigger)
             
             UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)

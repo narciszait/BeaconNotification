@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 UNUserNotificationCenter.current().setNotificationCategories([headphoneNotifCategory])
             }
             else {
-                print("Notifications permission denied because: \(error?.localizedDescription).")
+                print("Notifications permission denied because: \(error?.localizedDescription ?? "an error has occured").")
             }
         }
         
