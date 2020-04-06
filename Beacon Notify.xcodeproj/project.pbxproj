@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC5324FC243A4B1B00A5B65E /* bo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5324FB243A4B1B00A5B65E /* bo.png */; };
 		EC6A99CF243911F30090BB90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A99CE243911F30090BB90 /* AppDelegate.swift */; };
 		EC6A99D1243911F30090BB90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A99D0243911F30090BB90 /* SceneDelegate.swift */; };
 		EC6A99D3243911F30090BB90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A99D2243911F30090BB90 /* ViewController.swift */; };
@@ -25,6 +24,7 @@
 		EC6A9A22243936C90090BB90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6A99D7243911F50090BB90 /* Assets.xcassets */; };
 		EC6A9A2524393BED0090BB90 /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = EC6A9A2424393BED0090BB90 /* SwiftyGif */; };
 		EC6A9A28243940040090BB90 /* Airpods.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC6A99E2243915330090BB90 /* Airpods.gif */; };
+		ECF33CEF243B1DE000B56D38 /* headphones.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF33CEE243B1DE000B56D38 /* headphones.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EC5324FB243A4B1B00A5B65E /* bo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bo.png; sourceTree = "<group>"; };
 		EC6A99CB243911F30090BB90 /* Beacon Notify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beacon Notify.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6A99CE243911F30090BB90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC6A99D0243911F30090BB90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +69,7 @@
 		EC6A9A16243934D40090BB90 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		EC6A9A19243934D40090BB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		EC6A9A1B243934D40090BB90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF33CEE243B1DE000B56D38 /* headphones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headphones.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,7 @@
 				EC6A99D7243911F50090BB90 /* Assets.xcassets */,
 				EC6A99D9243911F50090BB90 /* LaunchScreen.storyboard */,
 				EC6A99E2243915330090BB90 /* Airpods.gif */,
-				EC5324FB243A4B1B00A5B65E /* bo.png */,
+				ECF33CEE243B1DE000B56D38 /* headphones.png */,
 				EC6A99DC243911F50090BB90 /* Info.plist */,
 				EC6A99E6243919520090BB90 /* Scratchpad.swift */,
 			);
@@ -238,8 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC5324FC243A4B1B00A5B65E /* bo.png in Resources */,
 				EC6A99DB243911F50090BB90 /* LaunchScreen.storyboard in Resources */,
+				ECF33CEF243B1DE000B56D38 /* headphones.png in Resources */,
 				EC6A99D8243911F50090BB90 /* Assets.xcassets in Resources */,
 				EC6A99D6243911F30090BB90 /* Main.storyboard in Resources */,
 				EC6A99E3243915330090BB90 /* Airpods.gif in Resources */,
